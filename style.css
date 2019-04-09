@@ -1,0 +1,112 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+  #welcome-section {
+  top: 0;
+  min-height: 55vh;
+  padding-top: 0px;
+  margin-top:0px;
+  width: 100%;
+  height: 100vh;
+  border: solid;
+  background-image: url(https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=ai-artificial-intelligence-blur-546819.jpg&fm=jpg);
+  background-size: cover;
+}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+
+.navbar {
+  position:fixed;
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+  top:0;
+  left:0;
+}
+
+.navbar a {
+  float:left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#welcome-section {
+  overflow:auto;
+  top: 0;
+  min-height: 55vh;
+  margin-top:0px;
+  padding-top:20vh;
+  bottom:0;
+  width: 100%;
+  height: 100vh;
+  border: solid 1px transparent;
+  color:white;
+  background-image: url(https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=ai-artificial-intelligence-blur-546819.jpg&fm=jpg);
+  background-size: cover;
+}
+
+#welcome-text {
+}
+
+#projects{
+  overflow:auto;
+  padding:1px;
+  top:0;
+  padding-top:20px;
+  height:75%;
+  background-color: #518EC6;
+  padding-bottom:20px;
+  
+}
+
+.project-tile {
+  display:inline-block;
+  text-align:center;
+  height:250px;
+  width:250px;
+  margin: 40px 100px;
+}
+.project-picture{
+  height:200px;
+  width:300px;
+}
+
+#contact{
+  overflow:auto;
+  padding:1px;
+  height:100px;
+  background-color:black;
+  color:white;
+}
+
+#profile-link {
+  font-size:24px;
+  padding:2px;
+}
